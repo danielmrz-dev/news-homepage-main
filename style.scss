@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@use 'components/header';
+@use 'components/container';
+@use 'components/variables';
+@use 'components/aside';
+@use 'components/articles';
+@use 'components/footer';
+@use 'components/media';
+
+// Reset
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: variables.$Inter;
+}
+
+body {
+    margin: 1.5rem 1rem 3rem;
+    background-color: variables.$Off-white;
+    display: grid;
+    gap: 1.25rem;
+}

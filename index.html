@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="description" content="A News Homepage">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <header class="header">
+
+    <picture>
+      <img src="assets/images/logo.svg" alt="logo" class="logo">
+    </picture>    
+    
+    <nav class="menu">
+      <label for="menu-icon" class="label-icon">
+        <img src="assets/images/icon-menu.svg" alt="menu-icon">
+      </label>
+      <input type="checkbox" name="menu-icon" id="menu-icon">
+      <ul class="menu-list">
+        <li class="menu-list-item">Home</li>
+        <li class="menu-list-item">New</li>
+        <li class="menu-list-item">Popular</li>
+        <li class="menu-list-item">Trending</li>
+        <li class="menu-list-item">Categories</li>
+      </ul>
+    </nav>
+
+  </header>
+  <main class="container">
+    <picture>
+      <source media="(min-width: 1024px)" srcset="assets/images/image-web-3-desktop.jpg" type="image/jpg">
+      <img src="assets/images/image-web-3-mobile.jpg" alt="image-web-3-mobile" class="main-img">
+    </picture>
+  
+    <h1 class="title">The Bright Future of Web 3.0?</h1>
+  
+    <div class="text-and-button">
+      <p class="paragraph">
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+        But is it really fulfilling its promise?
+      </p>
+      <button class="button">Read more</button>
+    </div>
+  
+    <aside class="aside">
+      <h2 class="aside-title">New </h2>
+      <article class="aside-article">
+        <h3 class="aside-article-title">Hydrogen VS Electric Cars</h3>
+        <p class="aside-article-paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <hr>
+      <article class="aside-article">
+        <h3 class="aside-article-title">The Downsides of AI Artistry</h3>
+        <p class="aside-article-paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <hr>
+      <article class="aside-article">
+        <h3 class="aside-article-title">Is VC Funding Drying Up?</h3>
+        <p class="aside-article-paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.
+        </article></p>
+    </aside>
+  
+    <section class="articles">
+      <article class="article">
+        <img src="assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+        <h3 class="article-title">01</h3>
+        <h4 class="article-subtitle">Reviving Retro PCs</h4>
+        <p class="article-paragraph">What happens when old PCs are given modern upgrades?</p>
+      </article>
+      <article class="article">
+        <img src="assets/images/image-top-laptops.jpg" alt="image-top-laptops">
+        <h3 class="article-title">02</h3>
+        <h4 class="article-subtitle">Top 10 Laptops of 2022</h4>
+        <p class="article-paragraph">Our best picks for various needs and budgets.</p>
+      </article>
+      <article class="article">
+        <img src="assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+        <h3 class="article-title">03</h3>
+        <h4 class="article-subtitle">The Growth of Gaming</h4>
+        <p class="article-paragraph">How the pandemic has sparked fresh opportunities.</p>
+      </article>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
