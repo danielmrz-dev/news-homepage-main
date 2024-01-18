@@ -4,6 +4,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (min-width: 1024px) {
+        margin-top: 4rem;
+    }
     picture {
         .logo {
             width: 50px;

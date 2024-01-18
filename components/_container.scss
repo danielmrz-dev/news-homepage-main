@@ -3,6 +3,9 @@
 .container {
     display: grid;
     gap: 1rem;
+    @media (min-width: 1024px) {
+        margin-top: 1rem;
+    }
     picture {
         .main-img {
             width: 100%;
